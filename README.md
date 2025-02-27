@@ -1,26 +1,32 @@
-Product Filtering and Pagination in React
+# Product Filtering and Pagination in React
 
-This is a product filtering and pagination feature built with React. It allows users to search and filter products by category, price range, and popularity. The project uses the DummyJSON API to fetch product data, which is then filtered and displayed based on user input. It also implements pagination to efficiently display a large number of products.
+This is a product filtering and pagination feature built with React. It allows users to search and filter products by category, price range, and popularity. The project uses the **DummyJSON API** to fetch product data, which is then filtered and displayed based on user input. It also implements pagination to efficiently display a large number of products.
 
-Features:
-Search Functionality: Users can search for products by title.
-Category Filter: Users can filter products by selecting a category from a dynamic list fetched from the API.
-Price Range Filter: Filter products within a specified price range.
-Sorting Options: Sort products by price (cheap or expensive) or popularity.
-Keyword Filter: Users can filter products based on predefined keywords like "apple", "watch", "fashion", etc.
-Reset Filters: Users can reset all applied filters to return to the default state.
-Pagination: Navigate through pages of products with a responsive pagination system.
-Responsive Design: The layout is fully responsive, adjusting to different screen sizes.
-Technologies:
-React
-Axios (for API calls)
-TypeScript (for type safety)
-Tailwind CSS (for styling)
-DummyJSON API (for sample product data)
-Context API (for managing global state)
-This project demonstrates state management using React's Context API, efficient filtering and pagination, and how to integrate external data into a React application. The user interface is clean, modern, and fully responsive, providing a great user experience.
+## Features
 
+- **Search Functionality**: Users can search for products by title.
+- **Category Filter**: Filter products by selecting a category from a dynamic list fetched from the API.
+- **Price Range Filter**: Filter products within a specified price range.
+- **Sorting Options**: Sort products by price (cheap or expensive) or popularity.
+- **Keyword Filter**: Filter products based on predefined keywords like "apple", "watch", "fashion", etc.
+- **Reset Filters**: Reset all applied filters to return to the default state.
+- **Pagination**: Navigate through pages of products with a responsive pagination system.
+- **Responsive Design**: The layout is fully responsive, adjusting to different screen sizes.
 
+## Technologies Used
+
+- **React**: For building the user interface.
+- **Axios**: For API calls to fetch product data.
+- **TypeScript**: For type safety and better development experience.
+- **Tailwind CSS**: For styling the components and layout.
+- **DummyJSON API**: For fetching sample product data.
+- **Context API**: For managing global state across components.
+
+## Project Overview
+
+This project demonstrates the use of state management with React's Context API, efficient filtering and pagination, and how to integrate external data into a React application. The user interface is clean, modern, and fully responsive, providing a great user experience.
+
+---
 
 
 
